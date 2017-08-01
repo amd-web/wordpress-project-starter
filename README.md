@@ -6,6 +6,13 @@
 
 ## 目次
 
-- ### [初期ファイル構成](/docs/01-create-files.md)
-- ### [各種静的ページを作る](/docs/02-static-pages.md)
-- ### [各種投稿記事を作る](/docs/03-post-types-and-archive.md)
+- ### 1. [初期ファイル構成](/docs/create-starer-files.md)
+- ### 2. [サイト部品の構成](/docs/template-parts.md)
+- ### 3. [各種静的ページを作る](/docs/static-pages.md)
+- ### 4. [各種投稿記事の一覧を作る](/docs/post-types-and-archive.md)
+  - 全体ページのページナビゲーションを作る
+  - 投稿メニューをサイトナビゲーションに表示される
+- ### 5. [投稿記事の内容を作る](/docs/acf-post.md)
+  - ACFの設置
+  - ACFフィルードの表示
+- ### 6. [サイト検索機能を付ける](/docs/search.md)
