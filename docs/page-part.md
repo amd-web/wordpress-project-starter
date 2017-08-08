@@ -11,12 +11,12 @@ front-page.php
 ```
 
 ## index.php
-```
+```php
 <?php ?>
 ```
 
 ## header.php
-```
+```php
 <!doctype html>
 <html <?php language_attributes(); ?>>
   <head>
@@ -34,7 +34,7 @@ front-page.php
 ```
 
 ## footer.php
-```
+```php
     <footer>
       <small>footer</small>
     </footer>
@@ -45,7 +45,7 @@ front-page.php
 ```
 
 ## functions.php
-```
+```php
 <?php
 
 // プレビュー画面で管理バーを隠す
