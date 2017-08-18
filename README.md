@@ -6,7 +6,7 @@
 
 ## 目次
 
-- ### 1. [初期ファイル構成](/docs/create-starer-files.md)
+- ### 1. [初期ファイル構成](./docs/create-starer-files.md)
 - ### 2. [サイト部品の構成](/docs/template-parts.md)
 - ### 3. [各種静的ページを作る](/docs/static-pages.md)
 - ### 4. [各種投稿記事の一覧を作る](/docs/post-types-and-archive.md)
