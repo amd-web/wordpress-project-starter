@@ -27,7 +27,6 @@ body {
 }
 
 ```
+[ここ](../base)に上記のファイルセットを用意しときましたので、ご自由に使用してください。
 
-> [ここ](../base)にファイルセットを用意しときましたので、ご自由に使用してください。
-
-次へ：⇨ [初期ファイル構成](https://github.com/amd-tokyo/flow-wordpress/blob/master/docs/create-starer-files.md)
+> 次： [サイト部品の構成](/docs/page-part.md)
