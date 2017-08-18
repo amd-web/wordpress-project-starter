@@ -5,17 +5,27 @@
 基本構築に使うファイルです。
 各ファイルの説明は下記となります。
 
-```bash
-
-// Wordpress 側に認識させるため必要なテンプレートファイル
+```
 index.php
-
-// テンプレートファイルの全体スタイルを管理するファイル
-style.css
-
-// テンプレートファイルの全体機能を管理するファイルです。
-function.php
+style.php
 ```
 
-> [ここ](../base)にファイルセットを用意しときましたので、よろしければどうぞ
+## index.php
+`index.php`は Wordpress 側に認識させるため必要なファイルです。
 
+```php
+<?php ?>
+```
+
+## style.css
+同じく `style.css`に `Theme Name` というプロパティを入れて Wordpress 側に認識させます。
+```css
+/* Theme Name: base_template */
+
+body {
+
+}
+
+```
+
+> [ここ](../base)にファイルセットを用意しときましたので、ご自由に使用してください。
