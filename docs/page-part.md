@@ -3,16 +3,12 @@
 Wordpress では共通の要素の部分を別のphpファイルにすることによって、どのカテゴリーや固定ページでも一括管理できます。
 
 ```
-index.php
+...
+
 header.php
 footer.php
 functions.php
 front-page.php
-```
-
-## index.php
-```php
-<?php ?>
 ```
 
 ## header.php
