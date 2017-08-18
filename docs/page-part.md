@@ -60,3 +60,4 @@ add_theme_support( 'post-thumbnails' );
 <?php get_footer(); ?>
 
 ```
+> 次： [各種静的ページを作る](/docs/static-pages.md)
