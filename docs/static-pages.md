@@ -32,3 +32,5 @@ wp-content
 │       ├── ...
 │       └── page-{パーマリンク名}.php // ここ
 ```
+
+> 次： [各種投稿記事の一覧・詳細の作成](/docs/post-types-and-archive.md)
