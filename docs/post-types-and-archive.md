@@ -60,7 +60,36 @@ add_action( 'init', 'implement_custom_category', 0 );
 `functions.php`で作成した**かスタム記事**を Wordpress ページに出力するために下記のようなファイルを作成します。
 
 ```
-archive-{ 先ほどfunctions.phpに作成した英語名を入力 }.php 
+archive-{ 先ほど functions.php に記入したカスタム投稿一覧の名前（英語）を入力 }.php 
+```
+
+中身はこんな感じで書いときます。
+
+```php
+<?php get_header(); ?>
+	<article class="">
+	  <h1>custom field</h1>
+	  <?php
+    	while ( have_posts() ) : the_post();
+		?>
+		<li>
+			<?php if ( has_post_thumbnail() ) {
+				the_post_thumbnail( 
+					array( 'class' => 'custom-thumbnail' )
+				); } ?>
+			<a href="<?php the_permalink(); ?>">
+				<?php the_title(); ?>
+			</a>	
+		</li>
+		<?php endwhile; ?>
+
+		<div id="pagination" class="clearfix">
+    	<?php posts_nav_link( ' ', '前', '次' ); ?>
+		</div>
+
+	</article>
+<?php get_footer(); ?>
+
 ```
 
 同じく FTPにアップします。
