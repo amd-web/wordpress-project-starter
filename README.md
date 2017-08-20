@@ -1,6 +1,6 @@
-# flow-wordpress
+# WordPressでコーポレートサイト制作の流れ（初級編）
 
-ワードプレスは初心者でも十分に扱える優秀なCMSツールですが、コーポレートサイトを作る場合、様々な[ビジネス要求](http://process-design-eng.com/contents/general/it-2.html)が存在するなど、例外が発生します。その例外を考慮して今回は [Advanced Custom Fields](https://www.advancedcustomfields.com/) を活用して実装していきたいと思います。
+WordPressは初心者でも十分に扱える優秀なCMSツールですが、コーポレートサイトを作る場合、様々な[ビジネス要求](http://process-design-eng.com/contents/general/it-2.html)が存在するなど、例外が発生します。その例外を考慮して今回は [Advanced Custom Fields](https://www.advancedcustomfields.com/)を活用して実装していきたいと思います。
 
 > ※ HTML、CSS の内容は省略、PHP 中心で説明しますので、ご参考ください。
 
