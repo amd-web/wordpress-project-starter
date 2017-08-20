@@ -1,6 +1,8 @@
 # flow-wordpress
 
-ワードプレスは初心者でも十分に扱える優秀なCMSツールですが、コーポレートサイトを作る場合、様々な[ビジネス要求](http://process-design-eng.com/contents/general/it-2.html)が存在するなど、例外を考慮して[Advanced Custom Fields](https://www.advancedcustomfields.com/) を活用して実装していきたいと思います。今回、基本的な HTML,CSS は省略、PHP 中心で説明しますので、ご参考ください。
+ワードプレスは初心者でも十分に扱える優秀なCMSツールですが、コーポレートサイトを作る場合、様々な[ビジネス要求](http://process-design-eng.com/contents/general/it-2.html)が存在するなど、例外が発生します。その例外を考慮して今回は [Advanced Custom Fields](https://www.advancedcustomfields.com/) を活用して実装していきたいと思います。
+
+> ※ HTML、CSS の内容は省略、PHP 中心で説明しますので、ご参考ください。
 
 ## 目次
 
