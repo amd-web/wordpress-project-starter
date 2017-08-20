@@ -1,10 +1,6 @@
 # flow-wordpress
 
-ワードプレスを使ってホームページを作るために参考するドキュメントです。
-
-[基本的な構築方法](https://goo.gl/7dfTKF)はそこまで難しくはないですが、ワードプレスはの自由度が高いので、いろんなスタイルで構築が可能です。
-
-今回は、その中で実装する側の便利、様々なユーザ要求、CMS管理の便利性などを考慮して[Advanced Custom Fields](https://www.advancedcustomfields.com/) を活用して説明したいと思います。
+ワードプレスは初心者でも十分に扱える優秀なCMSツールですが、コーポレートサイトを作る場合、様々な[ビジネス要求](http://process-design-eng.com/contents/general/it-2.html)が存在するなど、例外を考慮して[Advanced Custom Fields](https://www.advancedcustomfields.com/) を活用して実装していきたいと思います。今回、基本的な HTML,CSS は省略、PHP 中心で説明しますので、ご参考ください。
 
 ## 目次
 
@@ -16,5 +12,4 @@
   - [各種投稿記事の詳細](/docs/post-types-and-archive.md#各種投稿記事の詳細)
 
 > TODO (更新予定)
-> - サイト検索機能を付けるページ追加
-> - 各ページの内容補充
+> - サイト内検索機能
